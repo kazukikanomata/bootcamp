@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+    <table border="2" width= "500px">
+        <!--Shortcut: tr*3>td*3-->
+        <!-- First Row-->
+
+            <tr>
+            <!-- tr = table row-->
+            <!-- rd = table details ? table data-->
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <!-- Second Row -->
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+        <br>
+        <table border="2" width="400px">
+            <!-- Short cut: (tr>th*3)+tr*2>td*3 -->
+            <tr>
+                <!-- th = table heading-->
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>29</td>
+                <td>john@email.com</td>
+            </tr>
+            <tr>
+                <td>jane</td>
+                <td>27</td>
+                <td>jane@email.com</td>
+            </tr>
+        </table>
+        <br>
+    <h1>Colspan Table</h1>
+    <table border="2" width= "400px">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers></th>
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>12345</td>
+            <td>6789</td>
+        </tr>
+        <tr>
+            <td>Steve</td>
+            <td>1357</td>
+            <td>2468</td>
+        </tr>
+    </table>
+        <h1>Rowspan Table</h1>
+        <table border="2" width="400px">
+            <!-- First Row-->
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Steve</td>
+            </tr>
+            <!-- Second Row-->
+            <tr>
+                <th rowspan="2">Contact numbers</th>
+                <td>12345</td>
+                <td>6789</td>
+            </tr>
+            <!-- Third Row-->
+            <tr>
+                <td>2468</td>
+                <td>1357</td>
+            </tr>
+        </table>
+        
+</body>
+</html>

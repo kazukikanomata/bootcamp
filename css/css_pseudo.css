@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hover{
+    color: red;
+}
+
+.hover:hover{
+    color: blue;
+}
+
+.buttton{
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: seagreen;
+    border: 2px solid gray;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.button1:hover{
+    padding: 20px 40px;
+    background-color: yellow;
+    color: black;
+
+}
+
+/* Focus */
+
+#first_name{
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid seagreen;
+}

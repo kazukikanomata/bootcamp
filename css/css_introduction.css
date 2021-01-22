@@ -1,0 +1,26 @@
+.external_css{
+    color: purple;
+}
+
+h1{
+    color: seagreen;
+}
+
+h1.header1 {
+    color: brown;
+}
+
+/* OR USE THIS ONE
+.header1{
+    color:brown;
+    */
+
+    /* this one is for the class
+    .dindo{
+        color: yellow;
+    }
+
+    /* this one is for the id */
+    #unique-header{
+        color:pink;
+    }

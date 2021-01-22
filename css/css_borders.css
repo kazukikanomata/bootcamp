@@ -1,0 +1,54 @@
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+
+}
+
+/* border: border-width-value/thickness border-style-value 
+border-color-value */
+
+.solid{
+    border: 10px solid tomato;
+}
+
+.dotted{
+    border: 10px dotted teal;
+}
+
+.dashed{
+    border: 10px dashed crimson;
+}
+
+.double{
+    border: 10px double seagreen;
+}
+
+.groove{
+    border: 10px groove purple;
+}
+
+.ridge{
+    border: 10px ridge purple;
+}
+
+.inset{
+    border: 10px inset dodgerblue;
+}
+
+.outset{
+    border: 10px outset  dodgerblue;
+}
+
+.radius{
+    border: 10px solid black;
+    /* border-radius can use % or px*/
+    border-radius: 100px;
+}
+

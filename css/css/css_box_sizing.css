@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*box-sizing: border-box will tell the browser to include padding and border to the toatl width. It will not extend the height and width of your element.  The height and width of your element will always be the same even if you will add more on pedding and border */
+}
+
+div{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.div1{
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+.div2{
+    width: 300px;
+    height: 150px;
+    background-color: tomato;
+    padding: 50px;
+    border: 10px solid red;
+    /* if no box-sizing, totaal width will be 300px + pedding 75px + border 10px */
+}
+

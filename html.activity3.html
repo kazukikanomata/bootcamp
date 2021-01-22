@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Your Deatils:</legend>
+            <div>
+                <label for="Name">Name:
+                    <input type="text" name="name" id="name">
+                </label>
+                <br>
+                <label for="Email">Email:
+                    <input type="email" name="email" id="email">
+                </label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review</legend>
+        <div>
+                <span>How did you hear about us?</span>
+                <select name="hear" >
+                    <option value="Google">Google</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Advert">Advert</option>
+                    <option value="Others">Others</option>
+                </select>
+        </div>
+        <div>
+                <p> Would you visit us again?</p>
+            <input type="radio" name="visit" value="yes" > Yes
+            <input type="radio" name="visit" value="no" > No
+            <input type="radio" name="visit" value="maybe" > Maybe    
+        </div>
+        <div>
+                <p> Comments:</p>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="sign" id="sign">
+            <span> Sign me up for email updates</span>
+        </div>
+        <div>
+            <input type="submit" name="submit" id="submit">
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font_size{
+    /* font size is to change the size of text
+    font size can use % or px*/
+    font-size: 200px;
+}
+
+.font_weight{
+    /* font -weight is to change the thickness of the text 
+    value can be from 100 to 900 or bold*/
+    font-weight: 700;
+}
+
+.font_style{
+    /*font-style can be normal,italic, or oblique */
+    font-style: italic;
+}
+
+/*text-transform has 3 values:uppercase, lowercase and capitalize */
+
+.uppercase{
+    /* this will make your text to all BIG Letters*/
+    text-transform: uppercase;
+}
+.lowercase{
+    /* this will make your text to all small letters */
+    text-transform: : lowercase;
+}
+
+.capitalize{
+    /* this will make all the first letter of each word into BIG LETTERS*/
+    text-transform: capitalize;
+}
+
+.noun{
+    /* this will remove all text decoration in your text */
+    text-decoration: none;
+}
+
+.underline{
+    /* this will add a line below your text */
+    text-decoration: underkine;
+}
+
+.overline{
+    /* this will add a line above the text*/
+    text-decoration: overline;
+}
+
+.line-through{
+    /* this will add a line in between your text*/
+    text-decoration: line-through;
+}
+
+/* Text Align*/
+
+.left{
+    /* this will position your text to the left */
+    text-align: left;
+}
+
+.center{
+    /* this will position your text to the center */
+    text-align: center;
+}
+
+.right{
+    /* this will position your text to the right */
+    text-align: right;
+}

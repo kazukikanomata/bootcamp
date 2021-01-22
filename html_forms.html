@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <!--form tag = represents the form element; it will tell the browser that it will be the start of a form-->
+    <!--action attribute : will tell the browser , whrere your data should go-->
+    <!--method; is how your data is collected-->
+    <form action="#" method="#">
+        <fieldset>
+            <legend>Registration Form</legend>
+            <!--legend = a name tag of your fieldset-->
+            <!--text Field-->
+            <div>
+                <!--name = for the data, connected to your database|| id =for the element, or to connect to the label-->
+                <!--id =should be unique , you can only use your id once-->
+                <label for="first_name">First Name:
+                    <input type="text" name="first_name" id="first_name"required>
+                </label>
+                <!--required = needs to be filled in before submitting-->
+    
+                <label for="last_name">Last Name Name:
+                    <input type="text" name="last_name" id="last_name" required>
+                </label>
+            </div>
+            <br>
+
+            <!--Email Field-->
+            <div>
+                <label for="email">Email:
+                    <input type="email" name="email" id="email">
+                </label>
+            </div>
+            <!--Password Field-->
+            <div>
+            <label for="password">password:
+                <input type="password" name="password" id="password">
+            </label>
+            </div>
+        <br>
+        
+        </fieldset>
+       
+        <!-- Text Area-->
+        <div>
+            <p>Comments</p>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        </div>
+<fieldset>
+    <legend> Hobbies and Favorites</legend>
+        <!--Radio Head-->
+        <!--Radio buttons should always have the same but different values-->
+        <!--radio buttons should only select 1 choice-->
+        <div>
+            <p>Please select your favorite music genre</p>
+            <input type="radio" name="genre" value="rock">rock
+            <input type="radio" name="genre" value="pop">pop
+            <input type="radio" name="genre" value="edm">edm
+            <input type="radio" name="genre" value="classical">classical
+            <input type="radio" name="genre" value="jazz">jazz
+        </div>
+
+        <!--Checkbox-->
+        <!--checkbox should always have the same name but different values-->
+        <!--checkbox can select multiple choices-->
+        <div>
+            <p>Please select your favorite food</p>
+            <input type="checkbox" name="food" value="ramen">Ramen
+            <input type="checkbox" name="food" value="sushi">Sushi
+            <input type="checkbox" name="food" value="steak">Steak
+            <input type="checkbox" name="food" value="burger"> Burger
+        </div>
+        <br>
+</fieldset>
+       
+        <!--Dropdown list -->
+        <!--dropdown list can only select 1 option-->
+        <div>
+            <p>What is your device?</p>
+            <select name="device" >
+            <option disabled selected>--Select Your device--</option>
+            <option value="macbook_pro">Macbook Pro</option>
+            <option value="microsoft_surface">Microsoft surface</option>
+            <option value="dell">Dell Laptop</option>
+            <option value="ipad">ipad Pro</option>
+            <option value="samsung">Samsung Laptop</option>
+        </select>
+        </div>
+    </form>
+        <br>
+
+        <!--Multiple Select Box-->
+        <div>
+            <p> What are the instruments that you play? </p>
+            <!-- When choosing multiple option, click CMD then select or CTRL then select -->
+            <select name="instruments" multiple size="8">
+                <option value="guitar">Guitar</option>
+                <option value="violin">violin</option>
+                <option value="piano">piano</option>
+                <option value="drums">Drums</option>
+                <option value="flute">Flute</option>
+                <option value="bass">Bass</option>
+                <option value="trumpet">Trumpet</option>
+                <option value="harmonica">Harmonica</option>
+            </select>
+        </div>
+
+        <!--File Input-->
+        <div>
+            <p> Upload your image here</p>
+            <input type="file" name="upload_image" >
+        </div>
+        <br>
+
+        <!--Submit Button-->
+        <div>
+            <input type="submit" value="Submit" name="submit">
+        </div>
+
+        <!--Button-->
+        <div>
+            <button> I'm a button</button>
+        </div>
+    </form>
+</body>
+</html>

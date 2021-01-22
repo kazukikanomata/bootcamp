@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    color: black;
+    font-weight: 900;   
+}
+
+/*Specific properties of margin
+margin-right
+margin-left*/
+
+
+.div3{
+    background-color: tomato;
+    margin: 20px;
+    /* overflow can be hidden or scroll */
+    overflow: scroll;
+}

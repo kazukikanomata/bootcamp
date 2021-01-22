@@ -1,0 +1,35 @@
+.color-name{
+    color: purple;
+}
+
+.rgb{
+    /*RGB means Red,Green,Blue*/
+    /*rgb(red-value, green-value,blue-value)
+    it could be from 0(black)to 255(white)*/
+    color: rgb(0, 0,0);
+}
+
+.opacity{
+    /* opacity value is from 0 to 1*/
+    /*0 as the lightest, while 1 as the darkest*/
+    /* opacity is the transparemcy of the element*/
+    opacity:*0.7;
+}
+
+.rgba{
+    /*rgba(red-value,green-valum,blue-valum,aloha-value)
+    alpha value = is your opacity of the color*/
+    color: rgba(78, 34, 190, 0.7);
+}
+
+.hexcode{
+    /*hexcode: #RRGGBB
+    #redredgreenblueblue
+    the value of RRGGBB is from 0-9 and A-F*/
+    color: #7DBF4E;
+}
+
+.background-color{
+    color: #ffffff;
+    /*background-color: #123456;
+}

@@ -1,0 +1,23 @@
+div{
+    height: 680px;
+    width: 100px;
+}
+
+.div1{
+    /*.. means go outside the css folder to find images folder*/
+
+    background-image: url(../images/);
+    /* if you are using specific background size first value is width while second value is for the height */
+    
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.div2{
+    background-image: url(..//images/);
+    background-size: 200px 300px;
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
